@@ -1,0 +1,5 @@
+age = input("나이를 입력하세요: ")
+print("입력된 나이의 타입:", type(age))
+age = int(age)
+print("변환 후 타입:", type(age))
+print("내년 나이는:", age + 1)
